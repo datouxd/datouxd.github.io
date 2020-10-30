@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-10-30T04:04:04.069Z</updated>
+  <updated>2020-10-30T15:22:18.869Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,18 +17,60 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://example.com/2020/10/30/hello-world/"/>
-    <id>http://example.com/2020/10/30/hello-world/</id>
+    <title>ceshi</title>
+    <link href="http://example.com/2020/10/30/ceshi/"/>
+    <id>http://example.com/2020/10/30/ceshi/</id>
+    <published>2020-10-30T15:12:54.000Z</published>
+    <updated>2020-10-30T15:22:18.869Z</updated>
+    
+    <content type="html"><![CDATA[<p>body{</p><p>background:url(<a href="https://w.wallhaven.cc/full/lm/wallhaven-lmexll.jpg">https://w.wallhaven.cc/full/lm/wallhaven-lmexll.jpg</a>);</p><p>}</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;body{&lt;/p&gt;
+&lt;p&gt;background:url(&lt;a href=&quot;https://w.wallhaven.cc/full/lm/wallhaven-lmexll.jpg&quot;&gt;https://w.wallhaven.cc/full/lm/wallhaven-lmexll</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>C語言練習</title>
+    <link href="http://example.com/2020/10/30/vim&amp;%E7%B3%BB%E7%B5%B1%E5%BF%AB%E6%8D%B7%E9%8D%B5/"/>
+    <id>http://example.com/2020/10/30/vim&amp;%E7%B3%BB%E7%B5%B1%E5%BF%AB%E6%8D%B7%E9%8D%B5/</id>
+    <published>2020-10-30T08:11:50.000Z</published>
+    <updated>2020-10-30T09:15:20.449Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="P2006-超神牛的遊戲"><a href="#P2006-超神牛的遊戲" class="headerlink" title="P2006 超神牛的遊戲"></a>P2006 超神牛的遊戲</h3><h4 id="題目描述"><a href="#題目描述" class="headerlink" title="+ 題目描述"></a>+ 題目描述</h4><p>在 DNF 中，赵神牛有一个缔造者，他一共有 kkk 点法力值，一共有 mmm 个技能，每个技能耗费的法力值为 aia_iai，可以造成的伤害为 bib_ibi，而 boss 的体力值为 nnn，请你求出它放哪个技能，才可以打死 boss。</p><p>当然，赵神牛技术很菜，他一局只放一个技能,不过每个技能都可以放无数次。</p><h4 id="輸入格式"><a href="#輸入格式" class="headerlink" title="+ 輸入格式"></a>+ 輸入格式</h4><p>第一行有三个整数，分别表示 k,m,nk,m,nk,m,n。</p><p>后面 mmm 行，每行两个整数，第 (i+1)(i + 1)(i+1) 行的整数表示耗费的法力值 aia_iai 和造成的伤害 bib_ibi。</p><h4 id="輸出格式"><a href="#輸出格式" class="headerlink" title="+ 輸出格式"></a>+ 輸出格式</h4><p>输出仅一行，既可以杀死 boss 的技能序号，如果有多个，按从小到大的顺序输出，中间用一个空格隔开；如果没有技能能杀死 boss，输出 <code>-1</code>。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;P2006-超神牛的遊戲&quot;&gt;&lt;a href=&quot;#P2006-超神牛的遊戲&quot; class=&quot;headerlink&quot; title=&quot;P2006 超神牛的遊戲&quot;&gt;&lt;/a&gt;P2006 超神牛的遊戲&lt;/h3&gt;&lt;h4 id=&quot;題目描述&quot;&gt;&lt;a href=&quot;#題目描述&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo博客</title>
+    <link href="http://example.com/2020/10/30/hexo%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://example.com/2020/10/30/hexo%E5%8D%9A%E5%AE%A2/</id>
     <published>2020-10-30T04:04:04.069Z</published>
-    <updated>2020-10-30T04:04:04.069Z</updated>
+    <updated>2020-10-30T15:11:22.281Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h4 id="字體和顏色怎麼修改"><a href="#字體和顏色怎麼修改" class="headerlink" title="字體和顏色怎麼修改"></a>字體和顏色怎麼修改</h4><p>例如：</p><p>   <code>.post &#123;   </code></p><p><code>color: green;</code>            </p><p><code>            &#125;</code></p><p>就是修改文章的字体颜色。</p><p>加入背景图片也可以在此位置。</p><p>例如：</p><p><code>body &#123;  </code></p><p><code>background:url(/images/backrogund.jpg);</code></p><p><code> &#125;</code></p><h4 id="新建一篇文章"><a href="#新建一篇文章" class="headerlink" title="新建一篇文章"></a>新建一篇文章</h4><p>$  hexo new [layout] <title></p><table><thead><tr><th>参数</th><th>描述</th></tr></thead><tbody><tr><td><code>-p</code>, <code>--path</code></td><td>自定义新文章的路径</td></tr><tr><td><code>-r</code>, <code>--replace</code></td><td>如果存在同名文章，将其替换</td></tr><tr><td><code>-s</code>, <code>--slug</code></td><td>文章的 Slug，作为新文章的文件名和发布后的 URL</td></tr></tbody></table><h4 id="打開hexo文檔"><a href="#打開hexo文檔" class="headerlink" title="打開hexo文檔"></a>打開hexo文檔</h4><p>$ typora hexo博客.md </p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+    <summary type="html">&lt;h4 id=&quot;字體和顏色怎麼修改&quot;&gt;&lt;a href=&quot;#字體和顏色怎麼修改&quot; class=&quot;headerlink&quot; title=&quot;字體和顏色怎麼修改&quot;&gt;&lt;/a&gt;字體和顏色怎麼修改&lt;/h4&gt;&lt;p&gt;例如：&lt;/p&gt;
+&lt;p&gt;   &lt;code&gt;.post &amp;#123;   &lt;/code&gt;</summary>
       
     
     
