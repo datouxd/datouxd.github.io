@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-10-30T15:22:18.869Z</updated>
+  <updated>2020-11-01T12:44:00.118Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,39 +17,19 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>ceshi</title>
-    <link href="http://example.com/2020/10/30/ceshi/"/>
-    <id>http://example.com/2020/10/30/ceshi/</id>
-    <published>2020-10-30T15:12:54.000Z</published>
-    <updated>2020-10-30T15:22:18.869Z</updated>
+    <title>c語言筆記</title>
+    <link href="http://example.com/2020/11/01/cNote/"/>
+    <id>http://example.com/2020/11/01/cNote/</id>
+    <published>2020-11-01T11:00:05.000Z</published>
+    <updated>2020-11-01T12:44:00.118Z</updated>
     
-    <content type="html"><![CDATA[<p>body{</p><p>background:url(<a href="https://w.wallhaven.cc/full/lm/wallhaven-lmexll.jpg">https://w.wallhaven.cc/full/lm/wallhaven-lmexll.jpg</a>);</p><p>}</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;body{&lt;/p&gt;
-&lt;p&gt;background:url(&lt;a href=&quot;https://w.wallhaven.cc/full/lm/wallhaven-lmexll.jpg&quot;&gt;https://w.wallhaven.cc/full/lm/wallhaven-lmexll</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>C語言練習</title>
-    <link href="http://example.com/2020/10/30/vim&amp;%E7%B3%BB%E7%B5%B1%E5%BF%AB%E6%8D%B7%E9%8D%B5/"/>
-    <id>http://example.com/2020/10/30/vim&amp;%E7%B3%BB%E7%B5%B1%E5%BF%AB%E6%8D%B7%E9%8D%B5/</id>
-    <published>2020-10-30T08:11:50.000Z</published>
-    <updated>2020-10-30T09:15:20.449Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="P2006-超神牛的遊戲"><a href="#P2006-超神牛的遊戲" class="headerlink" title="P2006 超神牛的遊戲"></a>P2006 超神牛的遊戲</h3><h4 id="題目描述"><a href="#題目描述" class="headerlink" title="+ 題目描述"></a>+ 題目描述</h4><p>在 DNF 中，赵神牛有一个缔造者，他一共有 kkk 点法力值，一共有 mmm 个技能，每个技能耗费的法力值为 aia_iai，可以造成的伤害为 bib_ibi，而 boss 的体力值为 nnn，请你求出它放哪个技能，才可以打死 boss。</p><p>当然，赵神牛技术很菜，他一局只放一个技能,不过每个技能都可以放无数次。</p><h4 id="輸入格式"><a href="#輸入格式" class="headerlink" title="+ 輸入格式"></a>+ 輸入格式</h4><p>第一行有三个整数，分别表示 k,m,nk,m,nk,m,n。</p><p>后面 mmm 行，每行两个整数，第 (i+1)(i + 1)(i+1) 行的整数表示耗费的法力值 aia_iai 和造成的伤害 bib_ibi。</p><h4 id="輸出格式"><a href="#輸出格式" class="headerlink" title="+ 輸出格式"></a>+ 輸出格式</h4><p>输出仅一行，既可以杀死 boss 的技能序号，如果有多个，按从小到大的顺序输出，中间用一个空格隔开；如果没有技能能杀死 boss，输出 <code>-1</code>。</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="EOF的意義及用法"><a href="#EOF的意義及用法" class="headerlink" title="EOF的意義及用法"></a>EOF的意義及用法</h3><p>EOF，爲End Of File的縮寫。</p><p><code>1  #include &lt;stdio.h&gt;</code><br><code>2  int main()&#123;</code><br><code>3      int n;</code><br><code>4  while(scanf(&quot;%d&quot;,&amp;n) != EOF)&#123; </code><br><code>5  </code><br><code>6  &#125;</code><br><code>7      return 0;</code><br><code>8  &#125;</code></p><p>当上面的程序运行时，如果不加” != EOF”，那么这个程序就是个死循环，会一直运行下去；加上” != EOF”后该程序就不是死循环了，如果在终端不进行输入该程序会自动结束。</p><p>在这”scanf(“%d”,&amp;n) != EOF”相当于”scanf(“%d”,&amp;n) !=  EOF”，或”~scanf(“%d”,&amp;n)”，或”scanf(“%d”,&amp;n) == 1 “  。scanf的返回值由后面的参数决定</p><p>要注意的是：在终端(黑框)中手动输入时，系统并不知道什么时候到达了所谓的“文件末尾”，因此需要用&lt;Ctrl + z&gt;组合键然后按 Enter 键的方式来告诉系统已经到了EOF，这样系统才会结束while.</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h3 id=&quot;P2006-超神牛的遊戲&quot;&gt;&lt;a href=&quot;#P2006-超神牛的遊戲&quot; class=&quot;headerlink&quot; title=&quot;P2006 超神牛的遊戲&quot;&gt;&lt;/a&gt;P2006 超神牛的遊戲&lt;/h3&gt;&lt;h4 id=&quot;題目描述&quot;&gt;&lt;a href=&quot;#題目描述&quot; cla</summary>
+    <summary type="html">&lt;h3 id=&quot;EOF的意義及用法&quot;&gt;&lt;a href=&quot;#EOF的意義及用法&quot; class=&quot;headerlink&quot; title=&quot;EOF的意義及用法&quot;&gt;&lt;/a&gt;EOF的意義及用法&lt;/h3&gt;&lt;p&gt;EOF，爲End Of File的縮寫。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;1  #incl</summary>
       
     
     
@@ -59,18 +39,41 @@
   
   <entry>
     <title>hexo博客</title>
-    <link href="http://example.com/2020/10/30/hexo%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://example.com/2020/10/30/hexo%E5%8D%9A%E5%AE%A2/</id>
-    <published>2020-10-30T04:04:04.069Z</published>
-    <updated>2020-10-30T15:11:22.281Z</updated>
+    <link href="http://example.com/2020/10/31/hexo%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://example.com/2020/10/31/hexo%E5%8D%9A%E5%AE%A2/</id>
+    <published>2020-10-31T08:51:56.853Z</published>
+    <updated>2020-11-01T12:42:12.247Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="字體和顏色怎麼修改"><a href="#字體和顏色怎麼修改" class="headerlink" title="字體和顏色怎麼修改"></a>字體和顏色怎麼修改</h4><p>例如：</p><p>   <code>.post &#123;   </code></p><p><code>color: green;</code>            </p><p><code>            &#125;</code></p><p>就是修改文章的字体颜色。</p><p>加入背景图片也可以在此位置。</p><p>例如：</p><p><code>body &#123;  </code></p><p><code>background:url(/images/backrogund.jpg);</code></p><p><code> &#125;</code></p><h4 id="新建一篇文章"><a href="#新建一篇文章" class="headerlink" title="新建一篇文章"></a>新建一篇文章</h4><p>$  hexo new [layout] <title></p><table><thead><tr><th>参数</th><th>描述</th></tr></thead><tbody><tr><td><code>-p</code>, <code>--path</code></td><td>自定义新文章的路径</td></tr><tr><td><code>-r</code>, <code>--replace</code></td><td>如果存在同名文章，将其替换</td></tr><tr><td><code>-s</code>, <code>--slug</code></td><td>文章的 Slug，作为新文章的文件名和发布后的 URL</td></tr></tbody></table><h4 id="打開hexo文檔"><a href="#打開hexo文檔" class="headerlink" title="打開hexo文檔"></a>打開hexo文檔</h4><p>$ typora hexo博客.md </p>]]></content>
+    <content type="html"><![CDATA[<h4 id="修改字體和顏色"><a href="#修改字體和顏色" class="headerlink" title="修改字體和顏色"></a>修改字體和顏色</h4><p>例如：</p><p><code>post &#123; color: green;&#125;</code></p><p>就是修改文章的字体颜色。</p><p>加入背景图片也可以在此位置。</p><p>例如：</p><p><code>body &#123;</code></p><p><code>background:url(/images/backrogund.jpg);</code></p><p><code>&#125;</code></p><h3 id="鏈接和圖片"><a href="#鏈接和圖片" class="headerlink" title="鏈接和圖片"></a>鏈接和圖片</h3><blockquote><p>插入鏈接：<a href="http://www.jianshu.com/">簡書</a></p></blockquote><p><code>[簡書](http://www.jianshu.com)</code></p><blockquote><p>插入圖片：<img src="https://w.wallhaven.cc/full/6o/wallhaven-6ojdwl.png" alt="圖片"><br>：<code>![圖片](https://w.wallhaven.cc/full/6o/wallhaven-6ojdwl.png)</code></p></blockquote><h3 id="粗體和斜體"><a href="#粗體和斜體" class="headerlink" title="粗體和斜體"></a>粗體和斜體</h3><p><em>斜體</em>，<strong>粗體</strong></p><blockquote><p><code>*斜體*</code>       <code>**粗體**</code></p></blockquote><h3 id="代碼引用"><a href="#代碼引用" class="headerlink" title="代碼引用"></a>代碼引用</h3><blockquote><p><code>hello world</code>：``</p><p>多行引用：```</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">第一行</span><br><span class="line">第二行</span><br><span class="line">第三行</span><br><span class="line"></span><br></pre></td></tr></table></figure><h3 id="顯示鏈接中帶括號的圖片"><a href="#顯示鏈接中帶括號的圖片" class="headerlink" title="顯示鏈接中帶括號的圖片"></a>顯示鏈接中帶括號的圖片</h3><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">![][<span class="number">1</span>]</span><br><span class="line">[<span class="meta">1</span>]: http:<span class="comment">//latex.codecogs.com/gif.latex?\prod%20\(n_&#123;i&#125;\)+1</span></span><br></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;h4 id=&quot;字體和顏色怎麼修改&quot;&gt;&lt;a href=&quot;#字體和顏色怎麼修改&quot; class=&quot;headerlink&quot; title=&quot;字體和顏色怎麼修改&quot;&gt;&lt;/a&gt;字體和顏色怎麼修改&lt;/h4&gt;&lt;p&gt;例如：&lt;/p&gt;
-&lt;p&gt;   &lt;code&gt;.post &amp;#123;   &lt;/code&gt;</summary>
+    <summary type="html">&lt;h4 id=&quot;修改字體和顏色&quot;&gt;&lt;a href=&quot;#修改字體和顏色&quot; class=&quot;headerlink&quot; title=&quot;修改字體和顏色&quot;&gt;&lt;/a&gt;修改字體和顏色&lt;/h4&gt;&lt;p&gt;例如：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;post &amp;#123; color: green;&amp;#125;&lt;/</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>vim&amp;系統快捷鍵</title>
+    <link href="http://example.com/2020/10/30/vim&amp;%E7%B3%BB%E7%B5%B1%E5%BF%AB%E6%8D%B7%E9%8D%B5/"/>
+    <id>http://example.com/2020/10/30/vim&amp;%E7%B3%BB%E7%B5%B1%E5%BF%AB%E6%8D%B7%E9%8D%B5/</id>
+    <published>2020-10-30T08:11:50.000Z</published>
+    <updated>2020-11-01T12:47:02.658Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="系統打開終端"><a href="#系統打開終端" class="headerlink" title="系統打開終端"></a>系統打開終端</h3><blockquote><p>Ctrl+Alt+T</p></blockquote><h3 id="系統關閉窗口"><a href="#系統關閉窗口" class="headerlink" title="系統關閉窗口"></a>系統關閉窗口</h3><blockquote><p>Ctrl+W</p></blockquote><h3 id="顯示桌面"><a href="#顯示桌面" class="headerlink" title="顯示桌面"></a>顯示桌面</h3><blockquote><p>Ctrl+Win+D</p></blockquote><h3 id="新建一篇博客文章"><a href="#新建一篇博客文章" class="headerlink" title="新建一篇博客文章"></a>新建一篇博客文章</h3><blockquote><p> $  hexo new [layout]  “title“</p></blockquote><h3 id="清空屏幕"><a href="#清空屏幕" class="headerlink" title="清空屏幕"></a>清空屏幕</h3><blockquote><p>Ctrl+L</p></blockquote><h3 id="只查看文件"><a href="#只查看文件" class="headerlink" title="只查看文件"></a>只查看文件</h3><blockquote><p>輸入命令：view file</p></blockquote><h3 id="運行文件"><a href="#運行文件" class="headerlink" title="運行文件"></a>運行文件</h3><blockquote><p> $ typora hexo博客.md  &amp;</p></blockquote><h3 id="vim拷貝文本"><a href="#vim拷貝文本" class="headerlink" title="vim拷貝文本"></a>vim拷貝文本</h3><blockquote><p>復制選中文本：y</p><p>全部復制：按esc後，然後ggyG（注意大小寫）</p><p>粘貼：p</p><p>刪除一個字符：x</p><p>刪除一行文本：dd</p><p>刪除以當前行開始的n行：ndd</p><p>全部刪除：按esc後，然後dG（注意大小寫）</p></blockquote><h3 id="vim編輯選擇移動"><a href="#vim編輯選擇移動" class="headerlink" title="vim編輯選擇移動"></a>vim編輯選擇移動</h3><blockquote><p>k j h l    上下左右</p><p>選中文本：v</p><p>選中整個矩形塊：Ctrl+v</p></blockquote><h3 id="vim-卡住-死機"><a href="#vim-卡住-死機" class="headerlink" title="vim 卡住 死機"></a>vim 卡住 死機</h3><p>原因：使用vim時會因爲不小心按了Ctrl+s後，會發現不能輸入任何字符，類似死機；這並不是Linux死機，或者vim卡住，而只是按了Ctrl+s後，vim停止向終端輸出</p><blockquote><p>解決方法：退出這種狀態，按下Ctrl+q</p></blockquote><h3 id="撤銷與恢復撤銷"><a href="#撤銷與恢復撤銷" class="headerlink" title="撤銷與恢復撤銷"></a>撤銷與恢復撤銷</h3><blockquote><p>撤銷：u</p><p>恢復撤銷：Ctrl+r</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;系統打開終端&quot;&gt;&lt;a href=&quot;#系統打開終端&quot; class=&quot;headerlink&quot; title=&quot;系統打開終端&quot;&gt;&lt;/a&gt;系統打開終端&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;Ctrl+Alt+T&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;系統關閉</summary>
       
     
     
